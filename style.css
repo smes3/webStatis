@@ -1,0 +1,67 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main content */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Style the profile picture */
+.content img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.info {
+  text-align: center; /* Untuk menjaga teks rata kiri */
+}
+
+.info p {
+  margin: 10px 0; /* Untuk memberi jarak antara setiap paragraf */
+}
+.menu a {
+  text-decoration: none;
+  color: black; /* Warna teks awal */
+  transition: color 0.2s; /* Animasi perubahan warna */
+}
+
+.menu a:hover {
+  color: white; /* Warna teks saat kursor mengarah ke elemen */
+}
